@@ -22,7 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} antialiased`}>
-        <div className="w-11/12 mx-auto">{children}</div>
+        <div>
+          
+          {children}
+
+        </div>
       </body>
     </html>
   );
