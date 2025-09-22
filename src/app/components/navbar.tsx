@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import logo from "../../../public/pic/Group 68 2.jpg";
+import logo from "../../../public/pic/logo.jpg";
 
 export default function Navbar() {
   const pathname = usePathname();
