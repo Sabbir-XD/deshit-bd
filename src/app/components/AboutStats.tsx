@@ -77,7 +77,7 @@ export default function AboutStats() {
           {/* Countries Served */}
           <div>
             <h4 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-[#F86011] text-center">
-              <CountUp start={0} end={25} duration={3} />
+              <CountUp start={0} end={25} duration={3} scrollSpyOnce />
             </h4>
             <p className="text-md text-white mt-2">Countries Served</p>
           </div>
