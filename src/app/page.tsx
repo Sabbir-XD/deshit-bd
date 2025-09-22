@@ -5,6 +5,10 @@ import Navbar from "./components/Navbar";
 import ServicesCard from "./components/ServiceCards";
 import ServicesSection from "./components/ServicesSection";
 import TrustedCompanies from "./components/TrustedCompanies";
+import Outsourced from "./components/Outsourced";
+import AdvancedTech from "./components/AdvancedTech";
+import PortfolioSection from "./components/PortfolioSection";
+import TestimonialSlider from "./components/TestimonialSlider";
 
 export default function Home() {
   return (
@@ -19,6 +23,10 @@ export default function Home() {
       <div className="w-11/12 mx-auto">
         <ServicesSection />
         <BenefitsSection />
+        <Outsourced />
+        <AdvancedTech />
+        <PortfolioSection />
+        <TestimonialSlider />
       </div>
     </main>
   );

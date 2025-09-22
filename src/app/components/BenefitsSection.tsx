@@ -36,7 +36,7 @@ export default function BenefitsSection() {
     <section className="py-16 bg-white">
       {/* Heading */}
       <div className="text-center max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h2 className="text-md sm:text-xl md:text-2xl font-bold text-gray-900 mb-4">
           Benefits Of Software Development Outsourcing
         </h2>
         <p className="text-base sm:text-lg md:text-xl text-gray-600">
@@ -60,7 +60,7 @@ export default function BenefitsSection() {
             <div className="flex">
               {/* Icon */}
               <div className="mb-4">
-                <Image src={Icon} alt="Icon" width={400} height={400} />
+                <Image src={Icon} alt="Icon" width={300} height={400} />
               </div>
 
               <div className="ml-4"> 
