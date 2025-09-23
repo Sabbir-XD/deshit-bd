@@ -55,7 +55,7 @@ const products = [
   },
 ];
 
-export default function Products() {
+export default function Projects() {
   return (
     <section>
       <div className="text-center mb-10">
