@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import BackgroundTitle from "@/components/layout/BackgroundTitle";
+import Footer from "@/components/layout/Footer";
 
 const products = [
   {
@@ -9,23 +10,23 @@ const products = [
     img: "https://i.ibb.co/69D93v1/Group-1000002605.jpg",
   },
   {
-    title: "Project Management Tool",
+    title: "Transpiration Tracker",
     img: "https://i.ibb.co/pvpVH2rw/Group-1000002604.png",
   },
   {
-    title: "Learning Platform",
+    title: "Parcel Delivery App",
     img: "https://i.ibb.co/m5fh105x/Group-1000002600.png",
   },
   {
-    title: "Learning Platform",
+    title: "School Management System",
     img: "https://i.ibb.co/DfMcfWqs/Group-1000002603.png",
   },
   {
-    title: "Project Management Tool",
+    title: "Inventory Management System",
     img: "https://i.ibb.co/bjTj9Mrj/Group-1000002602.jpg",
   },
   {
-    title: "Gym Management System",
+    title: "Logistics Management System",
     img: "https://i.ibb.co/rK2Z80Mn/image-18.png",
   },
 ];
@@ -70,6 +71,7 @@ export default function Products() {
           </motion.div>
         ))}
       </div>
+      <Footer />
     </section>
   );
 }

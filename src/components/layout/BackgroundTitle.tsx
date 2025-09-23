@@ -32,33 +32,15 @@ export default function BackgroundTitle() {
 
   return (
     <div className="relative overflow-hidden">
-      {/* Helmet এর বদলে Next.js এ Head ব্যবহার করো */}
-      <Head>
-        <title>{pageName} | DeshIt-BD</title>
-        <meta
-          name="description"
-          content={`This is the ${pageName} page of FoodMaster.`}
-        />
-      </Head>
-
       {/* Background Section */}
-      <div
-        className="relative py-12 px-4 sm:px-6 lg:px-8"
-        style={{
-          backgroundImage:
-            "url('https://i.ibb.co.com/rKgt35gm/Rectangle-1330.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundBlendMode: "multiply",
-        }}
-      >
+      <div className="relative py-6 px-4 sm:px-6 lg:px-8 background">
         {/* Overlay */}
         <div className="absolute inset-0 mix-blend-multiply z-0"></div>
 
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <Navbar />
-          <h1 className="text-4xl font-extrabold tracking-tight text-[#141414] sm:text-5xl lg:text-6xl drop-shadow-lg">
+          <h1 className="text-4xl font-extrabold tracking-tight text-[#141414] sm:text-5xl lg:text-6xl drop-shadow-lg mt-5">
             {pageName}
           </h1>
           <p className="mt-4 text-md text-[#141414] max-w-3xl mx-auto drop-shadow-md">

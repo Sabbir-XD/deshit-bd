@@ -27,3 +27,25 @@ body {
   color: var(--foreground);
   font-family: var(--font-roboto), sans-serif;
 }
+
+.background {
+  background-image: 
+    url('https://i.ibb.co.com/rKgt35gm/Rectangle-1330.png'),
+    url('https://i.ibb.co.com/607FT6sZ/Subtract.png'),
+    url('https://i.ibb.co.com/8y8xNt0/Subtract-1.png');
+  
+  /* Sizes */
+  background-size: cover, auto 70%, 200px 120%; 
+  /* - 1st image cover
+     - 2nd image auto width, full height
+     - 3rd image 50px width, full height */
+
+  /* Positions */
+  background-position: center, right 20px top 0, left 50px top 0;
+  
+  /* Repeat */
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  
+  /* Blend */
+  background-blend-mode: multiply, normal, normal;
+}

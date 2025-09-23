@@ -62,8 +62,8 @@ export default function BenefitsSection() {
                 <Image
                   src="/pic/Frame.png" // ✅ public folder er direct path
                   alt="Icon"
-                  width={64}
-                  height={64}
+                  width={300}
+                  height={300}
                 />
               </div>
               <div className="ml-4">
