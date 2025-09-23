@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import BannerPic from "../../../public/pic/banner.png";
 
 export default function Banner() {
   return (
@@ -15,7 +14,7 @@ export default function Banner() {
           className="flex justify-center lg:justify-end w-full lg:w-1/2"
         >
           <Image
-            src={BannerPic}
+            src="/pic/banner.png"   // ✅ fixed
             alt="Banner"
             width={407}
             height={445}

@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Icon from "../../../public/pic/Frame.png";
 
 const benefits = [
   {
@@ -60,10 +59,14 @@ export default function BenefitsSection() {
             <div className="flex">
               {/* Icon */}
               <div className="mb-4">
-                <Image src={Icon} alt="Icon" width={300} height={400} />
+                <Image
+                  src="/pic/Frame.png" // ✅ public folder er direct path
+                  alt="Icon"
+                  width={64}
+                  height={64}
+                />
               </div>
-
-              <div className="ml-4"> 
+              <div className="ml-4">
                 {/* Heading */}
                 <h3 className="text-xl sm:text-2xl font-bold text-[#141414] mb-3">
                   {item.title}

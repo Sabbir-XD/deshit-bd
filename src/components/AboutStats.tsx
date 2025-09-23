@@ -1,9 +1,7 @@
 "use client";
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 import CountUp from "react-countup";
-import ellipseImage from "../../../public/pic/Ellipse.png";
 
 export default function AboutStats() {
   return (
@@ -20,7 +18,7 @@ export default function AboutStats() {
           <div className="mt-4">
             {/* Profile Image */}
             <Image
-              src={ellipseImage}
+              src="/pic/Ellipse.png"   // ✅ use like this
               alt="Profile"
               width={80}
               height={80}

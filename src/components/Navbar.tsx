@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import logo from "../../../public/pic/logo.jpg";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -18,10 +17,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="navbar bg-base-100 px-4">
+    <div className="navbar">
       {/* Left side (Logo) */}
       <div className="navbar-start">
-        <Image src={logo} alt="Logo" width={153} height={27} />
+        <Image src="/pic/logo.jpg" alt="Logo" width={153} height={27} />
       </div>
 
       {/* Right side (Menu) */}
