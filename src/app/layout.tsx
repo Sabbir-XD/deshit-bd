@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-// import BackgroundTitle from "@/components/layout/BackgroundTitle";
 
 // Load Roboto font
 const roboto = Roboto({
-  variable: "--font-roboto",
   subsets: ["latin"],
-  weight: ["400", "500", "700"], // choose the weights you need
+  weight: ["400", "500", "700"], // যেসব weight লাগবে সেগুলো রাখো
 });
 
 export const metadata: Metadata = {
@@ -17,15 +15,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} antialiased`}>
-        <div>
-          {/* <BackgroundTitle /> */}
-          <div>{children}</div>
+      <body className={`${roboto.className} antialiased bg-white text-gray-900`}>
+        <div className="min-h-screen flex flex-col">
+          {/* Header / Navbar future e ekhane add kora jabe */}
+          <main className="flex-1">{children}</main>
+          {/* Footer future e ekhane add kora jabe */}
         </div>
       </body>
     </html>
