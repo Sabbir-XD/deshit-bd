@@ -85,7 +85,7 @@ export default function Projects() {
             </div>
 
             {/* Half inside-half outside Button style Title */}
-            <div className="absolute w-11/12 mx-auto left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2">
+            <div className="absolute w-11/12 lg:max-w-7xl mx-auto left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2">
               <div className="bg-white  py-6 rounded-2xl shadow-lg border border-gray-200 text-center">
                 <h3 className="text-sm md:text-base font-semibold text-gray-800">
                   {item.title}

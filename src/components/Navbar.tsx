@@ -65,7 +65,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop menu */}
-        <div className="hidden lg:flex">
+        <div className="hidden lg:flex z-50">
           <ul className="menu menu-horizontal px-1">
             {navLinks.map((link) => (
               <li key={link.path}>

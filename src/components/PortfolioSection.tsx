@@ -25,7 +25,7 @@ export default function PortfolioSection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
-            className="overflow-hidden "
+            className="justify-items-center overflow-hidden "
           >
             <Image
               src={img}

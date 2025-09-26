@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 export default function AboutStats() {
   return (
     <section className="bg-black text-white py-12">
-      <div className="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="w-11/12 lg:max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Left Side - Profile */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}

@@ -9,7 +9,7 @@ export default function Company() {
       <BackgroundTitle />
 
       {/* Company Intro */}
-      <div className="w-11/12 mx-auto">
+      <div className="w-11/12 lg:max-w-7xl mx-auto">
         <h1 className="text-3xl md:text-5xl font-bold text-[#141414] mt-5">
           DeshITBD
         </h1>
@@ -64,7 +64,7 @@ export default function Company() {
 
       {/* How We Work Section */}
       <div className="bg-[#FA8370] py-10 mt-10">
-        <div className="w-11/12 mx-auto text-center">
+        <div className="w-11/12 lg:max-w-7xl mx-auto text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
             How we work
           </h1>

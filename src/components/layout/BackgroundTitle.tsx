@@ -1,7 +1,5 @@
 "use client";
 import { usePathname } from "next/navigation";
-import Head from "next/head";
-import { FaArrowCircleLeft } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import Navbar from "../Navbar";
 
@@ -31,7 +29,7 @@ export default function BackgroundTitle() {
   };
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative md:overflow-hidden">
       {/* Background Section */}
       <div className="relative py-6 px-4 sm:px-6 lg:px-8 background">
         {/* Overlay */}

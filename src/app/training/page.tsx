@@ -6,32 +6,20 @@ import Footer from "@/components/layout/Footer";
 
 const products = [
   {
-    title: "Gym Management System",
-    img: "https://i.ibb.co/69D93v1/Group-1000002605.jpg",
+    title: "Flutter",
+    img: "https://i.ibb.co/qYrQWdY8/image-14.png",
   },
   {
-    title: "Transpiration Tracker",
-    img: "https://i.ibb.co/pvpVH2rw/Group-1000002604.png",
+    title: "Mern Stack",
+    img: "https://i.ibb.co/q3Pmdbwc/image-17.png",
   },
   {
-    title: "Parcel Delivery App",
-    img: "https://i.ibb.co/m5fh105x/Group-1000002600.png",
-  },
-  {
-    title: "School Management System",
-    img: "https://i.ibb.co/DfMcfWqs/Group-1000002603.png",
-  },
-  {
-    title: "Inventory Management System",
-    img: "https://i.ibb.co/bjTj9Mrj/Group-1000002602.jpg",
-  },
-  {
-    title: "Logistics Management System",
-    img: "https://i.ibb.co/rK2Z80Mn/image-18.png",
+    title: "PHP Laravel",
+    img: "https://i.ibb.co/twN2sxq3/image-16.png",
   },
 ];
 
-export default function Products() {
+export default function Training() {
   return (
     <section>
       <div className="text-center mb-10">
