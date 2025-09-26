@@ -95,12 +95,4 @@ npm run build
 
 ---
 
-## 📬 Contact
-
-💼 **Deshit BD Team**  
-📧 Email: info@deshitbd.com  
-🌐 Website: [deshit-bd.vercel.app](https://deshit-bd.vercel.app/)
-
----
-
 ⭐ If you like this project, don't forget to **star the repo**!
