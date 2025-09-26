@@ -9,7 +9,6 @@ import Outsourced from "../components/Outsourced";
 import AdvancedTech from "../components/AdvancedTech";
 import PortfolioSection from "../components/PortfolioSection";
 import TestimonialSlider from "../components/TestimonialSlider";
-import StatsGridSimple from "@/components/StatsGridSimple";
 
 export default function Home() {
   return (
